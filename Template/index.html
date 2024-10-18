@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-black" >
+  <div class="container-fluid px-0 ">
+    <div class="position-fixed top-0 w-100 z-3 d-md-none text-opacity-75">
+      <nav class="navbar bg-secondary bg-opacity-50 p-2 d-flex justify-content-around " data-bs-theme="dark">
+        <div class="nav-item text-white">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </div>
+        <div class="nav-item text-white">
+          <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+        </div>
+        <div class="nav-item text-white">
+          <a class="nav-link" aria-current="page" href="#photos">PHOTOE</a>
+        </div>
+        <div class="nav-item text-white">
+          <a class="nav-link" aria-current="page" href="#contact">CONTACTS</a>
+        </div>
+
+      </nav>
+    </div>
+
+    <div class="row gap-md-5">
+      <div class="d-none d-md-block col col-md-1 p-2  bg-dark">
+        <div class="position-sticky top-0 start-0">
+          <ul class="navbar-nav p-3 text-center ">
+            <li class="nav-item mb-5 text-light">
+              <a class="nav-link active" aria-current="page" href="#">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor"
+                    class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                  </svg>
+                </div>
+                HOME
+              </a>
+            </li>
+            <li class="nav-item mb-5 text-light">
+              <a class="nav-link active" aria-current="page" href="#about">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                  </svg>
+                </div>
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-item mb-5 text-light">
+              <a class="nav-link active" aria-current="page" href="#photos">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
+                    class="bi bi-eye" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
+                  </svg>
+                </div>
+                PHOTOS
+              </a>
+            </li>
+            <li class="nav-item mb-5 text-light">
+              <a class="nav-link active" aria-current="page" href="#contact">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
+                    class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                  </svg>
+                </div>
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col col-md-9 ">
+        <header class="bg-black text-light  p-5 text-center" style="letter-spacing: 2px;line-height: 3rem;">
+          <h3>I'm John Doe.</h3>
+          <p class="">Photographer and Web Designer.</p>
+        </header>
+        <div class="card text-bg-dark text-center rounded-0 border-0 mb-5">
+          <img src="./images/man_smoke.jpg" class="card-img" alt="boy">
+        </div>
+        <div id="about" class="card bg-black border-0 rounded-0 text-light">
+          <div class="card-body">
+            <h3 class="card-title" style="letter-spacing: 2px;">My Name</h3>
+            <hr class="w-25">
+            <p class="card-text">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="card bg-black border-0 rounded-0 text-light mb-5">
+          <div class="card-body">
+            <h3 class="card-title" style="letter-spacing: 2px;">My Skills</h3>
+            <p class="text-secondary " style="letter-spacing: 2px;">
+              Photography
+            </p>
+            <div class="progress mb-3" role="progressbar" aria-label="Success example" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-secondary" style="width: 95%"></div>
+            </div>
+            <p class="text-secondary " style="letter-spacing: 2px;">
+              Web Design
+            </p>
+            <div class="progress mb-3" role="progressbar" aria-label="Success example" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-secondary" style="width: 85%"></div>
+            </div>
+            <p class="text-secondary " style="letter-spacing: 2px;">
+              Photoshop
+            </p>
+            <div class="progress mb-3" role="progressbar" aria-label="Success example" aria-valuenow="25"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-secondary" style="width: 75%"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around row row-cols-4 text-center bg-light ms-3 p-5 fs-5">
+          <div class="col-3">
+            <p>11+</p>
+            <span>Partners</span>
+          </div>
+          <div class="col-3">
+            <p>55+</p>
+            <span>Projects Done</span>
+          </div>
+          <div class="col-3">
+            <p>89+</p>
+            <span>Happy Clients</span>
+          </div>
+          <div class="col-3">
+            <p>150+</p>
+            <span>Meetings</span>
+          </div>
+        </div>
+
+        <div class="card bg-black border-0 rounded-0 text-light my-5">
+          <h3 class="card-header" style="letter-spacing: 2px;">My Reputation</h3>
+          <div class="card mb-4 bg-black  p-3">
+            <div class="row row-cols-2 g-0">
+              <div class="col-4 " style="width: 6rem;">
+                <img src="./images/bandmember.jpg" class="img-fluid rounded-circle "  alt="girl">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="card-text text-light-emphasis">
+                    <span class="me-2">Chris Fox.</span>
+                    <span> CEO at Mighty Schools.</span>
+                    <p>John Doe saved us from a web disaster.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card mb-3 bg-black  p-3">
+            <div class="row row-cols-2 g-0">
+              <div class="col-4" style="width: 6rem;">
+                <img src="./images/avatar_g2.jpg" class="img-fluid rounded-circle"  alt="girl">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="card-text text-light-emphasis">
+                    <span class="me-2">Rebecca Flex.</span>
+                    <span>CEO at Company.</span>
+                    <p>No one is better than John Doe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-black border-0 rounded-0 text-light mt-5" id="contact">
+          <div class="card-body" >
+            <h3 class="card-title" style="letter-spacing: 2px;">Contact Me</h3>
+            <hr class="w-25">
+            <div class="text-light-emphasis">
+            <p class="mb-3"> 
+              <span class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg></span>
+              <span class="ms-3"> Chicago, US</span>
+            </p>
+            <p class="mb-3"> 
+              <span class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg></span>
+              <span class="ms-3">Phone: +00 151515</span>
+            </p>
+            <p class="mb-3"> 
+              <span class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor"
+                class="bi bi-envelope" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+              </svg></span>
+              <span class="ms-3">Email: mail@mail.com</span>
+            </p>
+          </div>
+          </div>
+        </div>
+
+        <form method="get" action="" class="form ms-3">
+          <p class="text-light-emphasis mb-3 ">
+            Let's get in touch. Send me a message:
+          <p>
+          <input type="text" class="form-control my-3" placeholder="Name">
+          <input type="email" class="form-control" placeholder="Email">
+          <input type="text" class="form-control my-3" placeholder="Subject">
+          <input type="text" class="form-control my-3" placeholder="Message">
+          <button type="submit" class="btn btn-outline-light">SEND MESSAGE</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- <script src="bootstrap.js"></script> -->
+</body>
+
+</html>
